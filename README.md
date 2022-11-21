@@ -16,17 +16,7 @@ Each search result includes a title of the related news item, a brief descriptio
 	
 	c. "index.html" webpage is rendered. Here, enter the professional profile details and press submit.
 	
-	d. The WebApp navigates to "hello.html" and displays the professional profile details and the retrieved search results including news items related to the professional profile details.
+	d. The WebApp navigates to "search-results.html" and displays the professional profile details and the retrieved search results including news items related to the professional profile details.
 	
 	e. Press "Back" or "Home" to go back to "index.html" and update professional profile details.
-	
 
-  
-Screenshots:
-![Screenshot1](https://user-images.githubusercontent.com/89964333/201000392-7c30ab37-30ab-47ff-b477-4685d7df1cc4.jpg)
- 
-![Screenshot2](https://user-images.githubusercontent.com/89964333/201000442-ec76a680-6beb-42e8-913a-2ce303607324.jpg)
-
-![Screenshot3](https://user-images.githubusercontent.com/89964333/201000468-1a3ab061-d991-4770-8695-26be0c9e92ec.jpg)
-
-![Screenshot4](https://user-images.githubusercontent.com/89964333/201000490-67d1005a-cc21-4bcf-a0a4-80c2bca2724e.jpg)
