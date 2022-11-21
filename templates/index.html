@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>News Recommendation System</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="https://chromium.googlesource.com/external/github.com/twbs/bootstrap/+/v3.3.4/docs/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+        <style>
+            body { background-color: gray;}
+            .jumbotron { background-color: white !important;}
+            .text-muted {color: white !important;}
+            .homeButton {bottom: 10px}
+            .homeButton > a { background-color: #5cb85c !important; border-color: #4cae4c !important;}
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="header">
+                <nav>
+                    <ul class="nav nav-pills pull-right">
+                        <li role="presentation" class="active homeButton">
+                            <a href="/">Home</a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <h3 class="text-muted">Real Time news based on your professional profile</h3>
+            </div>
+
+            <div class="jumbotron">
+                <h3>Please enter your details here</h3>
+                <p class="lead"></p>
+                <p>
+                    <br>
+                    <form action="/search-results" method="post">
+                        Educational details (Degree, University): <br/>
+                    <input type="text" name="edu_details"> <br/> <br/>
+                Most recent experience (Organization Name, Experience description): <br/>	
+                    <input type="text" name="exp_details"> <br/> <br/>
+                Skills: <br/>
+                    <input type="text" name="skill_details"> <br/> <br/>
+                        <input class="btn btn-lg btn-success" type="submit" name="form" value="Submit" />
+                        <br />
+
+                        <br />
+                    </form>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>  
