@@ -1,5 +1,15 @@
-# CBIR_for_Professional_News_Recommender
-CBIR WebApp System for News Recommendation Based on Professional Profile of a user
+# Requirements:
+Implement a news recommendation system using NLP.
+
+Proposed solution will recommend real time news based on user professional profile.
+Steps:
+1. Enter your Educational details(Degree, University )
+2. Enter your most recent experience(Organization Name, Experience description)
+3. Enter your skills
+4. Implement a content based recommendation system which will recommend news based on above entered data in real time.
+5. Convert the solution in FastAPI endpoint.
+
+# Solution:
 
 1. This application is built using FastAPI and GoogleNews API. 
 
@@ -20,3 +30,13 @@ Each search result includes a title of the related news item, a brief descriptio
 	
 	e. Press "Back" or "Home" to go back to "index.html" and update professional profile details.
 
+# Screenshots:
+
+## Initial Page that user lands on
+<img width="1236" alt="image" src="https://user-images.githubusercontent.com/6551463/202976665-c629d823-2284-4f1a-946e-15fcde0c7067.png">
+
+## Sample data that user fills in the input fields
+<img width="1240" alt="image" src="https://user-images.githubusercontent.com/6551463/202976730-1f05d88e-168b-47e7-9017-88d54ca8532a.png">
+
+## Search Results
+<img width="1237" alt="image" src="https://user-images.githubusercontent.com/6551463/202976786-d1cb7819-7ea6-42f5-97e3-ea72945b92f9.png">
