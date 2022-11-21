@@ -40,3 +40,8 @@ Each search result includes a title of the related news item, a brief descriptio
 
 ## Search Results
 <img width="1237" alt="image" src="https://user-images.githubusercontent.com/6551463/202976786-d1cb7819-7ea6-42f5-97e3-ea72945b92f9.png">
+
+
+
+### credits
+Ashish Bansal
